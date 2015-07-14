@@ -77,7 +77,7 @@ footer {
 ===================================*/
 section.cover {
 	padding-top: 70px;
-	background: url('http://mediad.publicbroadcasting.net/p/wrni/files/201504/Beach_house_Misquamicut_WIKI.JPG');
+	background: url('http://www.ameland.nl/plaat.php?fileid=27604&f=87c1149558179118f89810d474ab5468fba7a80f279c921aad07fea86506b9710c210c330f6277beff70c84e5dab19868fdfb0b1fc28327e37062872e23bc948');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -262,4 +262,163 @@ section:before {
 	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
 	-webkit-transition-duration: 0.6s;
 	        transition-duration: 0.6s;
+}
+
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+.cf {
+  *zoom: 1;
+}
+body {
+  background-color: #333;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.dashboard {
+  width: 80%;
+  max-width: 650px;
+  margin: 100px auto 0 auto;
+  background-color: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+header {
+  color: white;
+  background-image: url('http://mediad.publicbroadcasting.net/p/wrni/files/201504/Beach_house_Misquamicut_WIKI.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 54px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}
+.date {
+  background-color: #2ecc71;
+  padding: 15px;
+  width: 30%;
+  float: left;
+  position: relative;
+}
+.date:after {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 10%;
+  bottom: -10px;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #2ecc71;
+}
+.weather {
+  position: relative;
+  width: 70%;
+  height: 120px;
+  float: right;
+  padding: 15px;
+}
+.temperature {
+  font-weight: 700;
+  font-size: 30px;
+  float: right;
+  margin-top: 80px;
+}
+section {
+  padding: 15px;
+  color: #333;
+}
+.left-content {
+  width: 68.5%;
+  float: left;
+  padding-right: 5%;
+}
+.right-content {
+  width: 31.3%;
+  float: right;
+}
+.description {
+  margin-top: 20px;
+}
+.price {
+  color: #2ecc71;
+  font-weight: 700;
+  font-size: 30px;
+  margin-right: 5px;
+}
+.per-night {
+  vertical-align: top;
+}
+.more-info {
+  margin-top: 50px;
+  width: 100%;
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.pagination {
+  margin-top: 90px;
+  float: left;
+}
+.pagination li {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 100px;
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-right: 5px;
+}
+.pagination li:first-child {
+  background-color: white;
+}
+.share-list {
+  margin-top: 20px;
+  color: #fff;
+}
+.share-list li {
+  width: 31.3%;
+  margin: 0 3%;
+  padding: 15px;
+  background-color: #e74c3c;
+  float: left;
+}
+.share-list li:first-child {
+  margin-left: 0;
+  margin-right: 0;
+  float: left;
+  background-color: #8f836b;
+}
+.share-list li:last-child {
+  margin-left: 0;
+  margin-right: 0;
+  float: right;
+  background-color: #3498db;
+}
+.link {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  display: block;
 }

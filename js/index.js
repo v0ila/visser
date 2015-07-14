@@ -59,3 +59,11 @@ $(function() {
 	}
   });
 });
+
+var d = new Date,
+    dateNumber = d.getDate(),
+    dateYear = d.getFullYear(),
+    months = [ "Januari", "Februari", "Maart", "April", "Mei", "Juni",
+    "Juli", "Augustus", "September", "October", "November", "December" ];
+$('.date-number').text(dateNumber);
+$('.date-month').text(months[d.getMonth()]);$('.date-year').text(dateYear);

@@ -5,7 +5,7 @@
     <title>B. Visser Demo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link rel="stylesheet" href="css/normalize.css">
+<!--    <link rel="stylesheet" href="css/normalize.css">-->
 
     <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
     <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
@@ -77,7 +77,54 @@
 	
 	<!-- Section One; as seen on many site 3 main option sections for content -->
 	<section class="container-fluid section-one">
+      <div class="dashboard">
+  <header class="cf">
+    <div class="date">
+      <h1 class="date-number"></h1>
+      <h2 class="date-month"></h2>
+      <h3 class="date-year"></h3>
+    </div>
+    <div class="weather">
+      <ul class="pagination">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <div class="temperature">22ºc</div>
+    </div>
+  </header>
+  <section class="cf">
+    <div class="main-content cf">
+      <div class="left-content">
+        <h2 class="location">Ameland, FR</h1>
+        <h3 class="days">4 dagen, 3 nachten</h3>
+        <div class="description">
+          <p>Dit is een voorbeeld tekst om een impressie te krijgen van het eindresultaat.</p>
+        </div>
+      </div>
+      <div class="right-content">
+        <span class="price">€700</span>
+        <span class="per-night">per nacht</span>
+        <button class="more-info">Meer informatie</button>
+      </div> 
+    </div>
+    <ul class="share-list cf">
+      <li>
+        <h2 class="share-count">8</h2>
+        <h3 class="share-type">Kamers</h3>
+      </li>
+      <li>
+        <h2 class="share-count">110 m²</h2>
+        <h3 class="share-type">Oppervlakte</h3>
+        <li>
+       <br><h2>Reserveer nu</h2>
+      </li>
+      </li>
+    </ul>
+  </section>
+</div>
 		<div class="row">
+          
 			<div class="col-md-4 section-one-content" id="section-one-left">
 				<h1>Wat</h1>
 				<p>Hier volgt een demo tekst: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.
@@ -101,8 +148,9 @@
 				<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.
 				</p>
 			</div>	
-		</div>
+	
 	</section>
+      	</div>
 	<!-- //Close Section One -->	
 	
 	
@@ -145,19 +193,20 @@
 				</article>
 			</div>
 		</div>
+      </section>
+      </div>
 	</section>
 	<!--//Close Section Three -->
 	
 	<!-- Footer -->
 	<footer>
-		
+
+
+
 		<!-- Back to top link -->
-		<a href="#spytop" class="top"><span class="glyphicon glyphicon-chevron-up"><h4></h4></span></a>
+		<a href="#spytop" class="top"><span class="glyphicon glyphicon-chevron-up"></span></a>
 		<!-- //Close Back to top link -->
-		
-		<div class="container">
-			<h2>Footer</h2>
-		</div>
+
 	</footer>
 	<!-- //Close Footer -->
 </body>
